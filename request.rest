@@ -1,0 +1,15 @@
+
+GET http://localhost:3000/posts
+Authorization: Bearer
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic3RhYiIsImlhdCI6MTY3Njg0Mjg2Mn0.M1iHyPSnlmx5MCeddCT25j7rrH5d7scsqvFXxszfmMY
+
+
+###
+
+
+POST  http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username":"stab"
+}
